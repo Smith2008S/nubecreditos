@@ -1,12 +1,9 @@
 applications:
-  - name: nubecreditos
+  - name: nubecreditos1234
     memory: 128M
     buildpack: sdk-for-nodejs
-  - instances: 1
+    instances: 1
     timeout: 180
-    buildpack: sdk-for-nodejs
     command: npm start
     memory: 256M
-    domain: mybluemix.net
-    host: nubecreditos
-
+    host: cualquiera1234
