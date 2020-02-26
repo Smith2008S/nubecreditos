@@ -2,12 +2,12 @@ applications:
   - name: node-hello-world
     memory: 128M
     buildpack: sdk-for-nodejs
-- instances: 1
-  timeout: 180
-  name: nubecreditos
-  buildpack: sdk-for-nodejs
-  command: npm start
-  memory: 256M
-  domain: nubecreditos.net
-  host: nubecreditos
+  - instances: 1
+    timeout: 180
+    name: nubecreditos
+    buildpack: sdk-for-nodejs
+    command: npm start
+    memory: 256M
+    domain: mybluemix.net
+    host: nubecreditos
 
